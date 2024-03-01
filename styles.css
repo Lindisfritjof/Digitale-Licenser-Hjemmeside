@@ -1,0 +1,27 @@
+/* grundlæggende css */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* classes-specifik CSS for ikonerne */
+.licenser {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.boble {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 20px;
+}
+
+/* opførsel ved float */
+/* skal skrives ind herunder */
