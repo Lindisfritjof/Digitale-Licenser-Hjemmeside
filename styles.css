@@ -5,6 +5,10 @@
     background-color: #f1f1f2;
 }
 
+body {
+  text-align: center; /* Så ældre browsere også sætter teksten korrekt. */
+ }
+
 h1 {
     text-align: center;
 }
@@ -12,7 +16,7 @@ h1 {
 /* classes-specifik CSS for ikonerne */
 .licenser {
     display: flex;
-    float: none;
+    float: left;
     flex-wrap: wrap;
 }
 
@@ -21,10 +25,11 @@ h1 {
   width: 200px;
   border-radius: 50%;
   display: inline-block;
-  padding: 20px;
+  padding: 0px;
+  margin: 20px;
 }
 
 /* Ved hover skal det følgende ske*/
-.licens:hover {
+.boble:hover {
   opacity: 0.5;
 }
