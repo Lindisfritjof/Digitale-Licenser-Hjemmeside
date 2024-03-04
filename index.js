@@ -38,3 +38,11 @@
 		}, false);
 	}, false);
 }
+
+window.addEventListener('next', function(){
+    console.log('forward button clicked');
+}, false);
+    
+window.addEventListener('previous', function(){
+    console.log('back button clicked');
+}, false);
