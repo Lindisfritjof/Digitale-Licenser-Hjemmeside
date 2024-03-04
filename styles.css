@@ -12,7 +12,7 @@ h1 {
 /* classes-specifik CSS for ikonerne */
 .licenser {
     display: flex;
-    float: left;
+    float: none;
     flex-wrap: wrap;
 }
 
