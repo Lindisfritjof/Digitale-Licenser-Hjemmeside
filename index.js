@@ -28,7 +28,7 @@
 			// check history state and fire custom events
 			if(state = event.state){
 	
-				event === document.createEvent('Event');
+				event = document.createEvent('Event');
 				event.initEvent(state > 0 ? 'next' : 'previous', true, true);
 				this.dispatchEvent(event);
 				
