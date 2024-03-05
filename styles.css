@@ -5,22 +5,19 @@
     background-color: #f1f1f2;
 }
 
-body {
-  text-align: center; /* Så ældre browsere også sætter teksten korrekt. */
- }
-
 h1 {
     text-align: center;
 }
 
 /* classes-specifik CSS for ikonerne */
 .licenser {
-    display: flex;
-    float: left;
-    flex-wrap: wrap;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
 }
 
 .boble {
+  position: relative;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -29,7 +26,37 @@ h1 {
   margin: 20px;
 }
 
+.licens {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.cirkel {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0px;
+  margin: 20px;
+}
+
+.cirkeltekst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bold;
+  background: whitesmoke;
+  visibility: hidden;
+ }
+
 /* Ved hover skal det følgende ske*/
-.boble:hover {
-  opacity: 0.5;
+.cirkel:hover :not(.cirkeltekst){
+  opacity: -1;
+}
+
+.cirkel:hover .cirkeltekst {
+  visibility: visible;
 }
