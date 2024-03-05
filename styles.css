@@ -10,6 +10,11 @@ h1 {
 }
 
 /* classes-specifik CSS for ikonerne */
+
+.licens * {
+border-radius: 50%;
+}
+
 .licenser {
   display: flex;
   float: left;
@@ -47,16 +52,21 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  background: none;
   font-weight: bold;
-  background: whitesmoke;
+  text-align: center;
+  line-height: 20px;
   visibility: hidden;
  }
 
 /* Ved hover skal det følgende ske*/
 .cirkel:hover :not(.cirkeltekst){
-  opacity: -1;
+  opacity: 0.1;
+  background-color: blue;
+  transition: 0.7s;
 }
 
 .cirkel:hover .cirkeltekst {
   visibility: visible;
+  transition: 1s;
 }
