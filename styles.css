@@ -17,6 +17,13 @@ h1 {
   flex-wrap: wrap;
 }
 
+.licens-container {
+  position: relative;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+}
+
 .boble {
   position: relative;
   height: 200px;
@@ -25,13 +32,6 @@ h1 {
   display: inline-block;
   padding: 0px;
   margin: 20px;
-}
-
-.licens {
-  position: relative;
-  border-radius: 50%;
-  text-align: center;
-  color: white;
 }
 
 .cirkel {
