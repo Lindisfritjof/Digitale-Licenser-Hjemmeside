@@ -13,16 +13,22 @@ h1 {
 
 .licenser {
   display: flex;
-  float: left;
   flex-wrap: wrap;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .licens-container {
   position: relative;
   border-radius: 50%;
   text-align: center;
-  color: white;
-}
+  color: blue;
+  border-spacing: 30px;
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
 
 .boble {
   position: relative;
@@ -30,8 +36,7 @@ h1 {
   width: 200px;
   border-radius: 50%;
   display: inline-block;
-  padding: 0px;
-  margin: 20px;
+  align-items: center;
 }
 
 .cirkel {
@@ -39,14 +44,13 @@ h1 {
   width: 200px;
   border-radius: 50%;
   display: inline-block;
-  padding: 0px;
-  margin: 20px;
-}
+ }
 
 .cirkeltekst {
   position: absolute;
+  float: rigth;
   top: 55%;
-  left: 55%;
+  left: 60%;
   bottom: -40%;
   transform: translate(-50%, -50%);
   color: rgb(23, 20, 20);
