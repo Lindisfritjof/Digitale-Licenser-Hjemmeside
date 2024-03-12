@@ -2,11 +2,12 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f1f1f2;
+    background: #ffff;
 }
 
 h1 {
     text-align: center;
+    background: inherit;
 }
 
 /* classes-specifik CSS for ikonerne */
@@ -16,6 +17,7 @@ h1 {
   flex-wrap: wrap;
   margin-right: 100px;
   margin-left: 100px;
+  border-spacing: 30px;
 }
 
 .licens-container {
@@ -24,9 +26,11 @@ h1 {
   text-align: center;
   color: blue;
   border-spacing: 30px;
-  padding: 50px;
+  padding: 0px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   overflow: hidden;
   }
 
@@ -56,10 +60,10 @@ h1 {
     position: absolute;
     right: 0;
     top: 0;
-    transition: opacity 0.1s;
+    transition: opacity 0.5s;
     z-index: 1;
     overflow-wrap: normal;
-      background: linear-gradient(90deg, rgba(241, 118, 88, 0.726), rgba(255, 237, 37, 0.977));
+      background: yellow;
       color: #0c0909;
       font-size: 24px;
       font-weight: bold;
