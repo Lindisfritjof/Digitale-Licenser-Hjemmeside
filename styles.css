@@ -1,19 +1,23 @@
 /* grundlæggende css */
 
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family: Arial;
     font-weight: lighter;
+    background: linear-gradient(130deg, rgb(227, 116, 116), rgb(103, 103, 244));
   }
 
 h1 {
     text-align: center;
     background: inherit;
+    font-family: Arial;
+    font-size: 3rem;
 }
 
 /* classes-specifik CSS for ikonerne */
 
 .licenser {
   display: flex;
+  -ms-flex-align: center;
   flex-wrap: wrap;
   margin-right: 100px;
   margin-left: 100px;
@@ -48,7 +52,7 @@ h1 {
   overflow: hidden;
   position: relative;
   width: 300px;
-   }
+  }
 
    .overlag {
     align-items: center;
@@ -63,13 +67,16 @@ h1 {
     transition: opacity 0.5s;
     z-index: 1;
     overflow-wrap: normal;
+    padding: 4%;
       background: rgb(246, 246, 189);
       color: #0c0909;
-      font-size: 24px;
-      font-weight: bold;
+      font-size: 20px;
+      font-family: Arial;
+       transition: rotate 0.5s;
   }
   
   .overlag:hover {
-    opacity: 0.9;
+    opacity: 0.89;
+    rotate: 360deg;
   }
 
